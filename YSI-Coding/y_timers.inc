@@ -77,7 +77,7 @@ Changelog:
 	#endinput
 #endif
 
-#include "..\YSI-Internal\y_plugins"
+#include "..\YSI_Internal\y_plugins"
 
 #include "y_timers/impl"
 #if defined _YSI_PLUGINS_FIXES_2
@@ -88,6 +88,6 @@ Changelog:
 #endif
 
 #if defined YSI_TESTS
-	#include "..\YSI-Core\y_testing"
+	#include "..\YSI_Core\y_testing"
 	#include "y_timers/tests"
 #endif

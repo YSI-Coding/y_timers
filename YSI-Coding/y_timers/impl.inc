@@ -71,14 +71,14 @@ Changelog:
 
 // Disable this version!
 
-#include "..\YSI-Internal\y_version"
+#include "..\YSI_Internal\y_version"
 
-#include "..\YSI-Storage\y_amx"
-#include "..\YSI-Internal\y_shortfunc"
-#include "..\YSI-Coding\y_malloc"
-#include "..\YSI-Data\y_iterate"
-#include "..\YSI-Coding\y_hooks"
-#include "..\YSI-Core\y_debug"
+#include "..\YSI_Storage\y_amx"
+#include "..\YSI_Internal\y_shortfunc"
+#include "..\YSI_Coding\y_malloc"
+#include "..\YSI_Data\y_iterate"
+#include "..\YSI_Coding\y_hooks"
+#include "..\YSI_Core\y_debug"
 
 static stock
 	Alloc:YSI_g_sLastSlot = NO_ALLOC,
